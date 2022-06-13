@@ -70,7 +70,7 @@ const ProjectDetails = () => {
                 )}
             </div>
             <div className="pagination-section">
-                <div className="pagination-info">Showing 1 to 10 of {JsonData.length} entries</div>
+                <div className="pagination-info">Showing 1 to 10 of {12} entries</div>
                 <div><PaginationList total={2} /></div>
             </div>
         </div>

@@ -12,23 +12,16 @@ export default function DropDown() {
   };
 
   return (
-    <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
-      <InputLabel id="demo-select-small">Active</InputLabel>
-      <Select
-        labelId="demo-select-small"
-        id="demo-select-small"
-        value={Active}
-        label="Active"
-        onChange={handleChange}
-        className="customized-style"
-      >
-        <MenuItem value="Active">
-          Active
-        </MenuItem>
-        <MenuItem value="InProgress">InProgress</MenuItem>
-        <MenuItem value="To Do">To Do</MenuItem>
-        <MenuItem value="Completed">Completed</MenuItem>
-      </Select>
-    </FormControl>
+    <div class="dropdown">
+  <button class="btn dropdown-toggle drp-btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    <span className='active-one'>Active</span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">In-Progress</a></li>
+    <li><a class="dropdown-item" href="#">Active</a></li>
+    <li><a class="dropdown-item" href="#">Completed</a></li>
+  </ul>
+</div>
+    
   );
 }

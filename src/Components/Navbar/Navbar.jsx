@@ -5,8 +5,9 @@ import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from "@mui/material/InputBase";
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
-import BarChartIcon from '@mui/icons-material/BarChart';
+
 const Search = styled('div')(({ theme }) => ({
+  padding:'3px 0px',
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
     backgroundColor: alpha(theme.palette.common.white, 0.15),
@@ -20,11 +21,13 @@ const Search = styled('div')(({ theme }) => ({
       marginLeft: theme.spacing(3),
       width: 'auto',
     },
+    
   }));
   const SearchIconWrapper = styled('div')(({ theme }) => ({
     padding: theme.spacing(0, 2),
     height: '100%',
     position: 'absolute',
+    marginTop: "-2px",
     pointerEvents: 'none',
     display: 'flex',
     alignItems: 'center',
@@ -37,9 +40,13 @@ const Search = styled('div')(({ theme }) => ({
       // vertical padding + font size from searchIcon
       paddingLeft: `calc(1em + ${theme.spacing(4)})`,
       transition: theme.transitions.create('width'),
+      fontSize:'1.5em',
       width: '100%',
       [theme.breakpoints.up('md')]: {
-        width: '20ch',
+        width: '28ch',
+        color:'white',
+        fontWeight:'500',
+        letterSpacing:'0.5px'
       },
     },
   }));
@@ -55,7 +62,7 @@ return (
              <div className="search-bar-div">
              <Search>
             <SearchIconWrapper>
-              <SearchIcon />
+              <SearchIcon  className="search-icon-mu"/>
             </SearchIconWrapper>
             <StyledInputBase
               placeholder="Search…"
@@ -91,7 +98,7 @@ return (
              </div>
              <div className="sun-icon">
                  <div className="sun-icon-subdiv">
-             <WbSunnyIcon/>
+             <WbSunnyIcon className="sun-icon-mu"/>
              </div>
              </div>
              <button className="profile-icon">

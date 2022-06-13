@@ -135,7 +135,7 @@ const Sample = () => {
 
                       </ul>
                     </div>
-                    {/* <div className="alignment-right-border"></div> */}
+               
                   </div>
                 </li>
 
