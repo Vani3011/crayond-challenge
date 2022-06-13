@@ -1,0 +1,145 @@
+.main-hdr{
+    // display: flex;
+}
+.nav-section{
+    background-color:#50CD89;
+    padding:10px 30px;
+    // margin:0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.first-section{
+    display:flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.logo{
+    height:30px;
+}
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graph-icon {
+    margin-right: 10px;
+    // padding: 15px;
+}
+.graph-icon-subdiv{
+    padding:10px 15px
+}
+.graph-icon  :hover{
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #89cea8;
+    border-radius: 5px;
+}
+.sun-icon{
+    margin-right: 10px;
+}
+.sun-icon-subdiv{
+    padding:10px 15px
+}
+.sun-icon  :hover{
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #89cea8;
+    border-radius: 5px;
+}
+.fileView-icon{
+    margin-right: 10px;
+}
+.fileView-icon-subdiv{
+    padding:10px 15px
+}
+.fileView-icon  :hover{
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #89cea8;
+    border-radius: 5px;
+}
+.profile-text{
+    text-align: right;
+}
+.profile-icon{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    border: none !important;
+    // padding: 3px !important;
+    background-color: transparent !important;
+}
+.profile-icon  :hover{
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #89cea8;
+    // padding: 3px;
+    border-radius: 5px;
+}
+.profile-subdiv{
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic{
+    width:40px;
+    height:40px;
+    margin-left:15px;
+    border-radius: 6px;
+}
+.profile-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
+.profile-designation{
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity:0.75;
+    letter-spacing: 0.5px;
+    font-family: arial;
+}
+.search-icon{
+    display:none;
+}
+//mui search css
+.css-1kcggdq-MuiInputBase-root {
+    font-size:1.5rem !important;
+    color:white !important;
+    font-weight: bold !important;
+    letter-spacing: 0.5px;
+}
+.sun-icon{
+.css-i4bv87-MuiSvgIcon-root{
+    fill: white !important;
+    font-size: 2rem !important;
+}
+}
+.css-i4bv87-MuiSvgIcon-root{
+    fill: white !important;
+    font-size: 2rem !important;
+}
+.css-1kcggdq-MuiInputBase-root .MuiInputBase-input {
+    padding: 10px 10px 10px 10px !important;
+    padding-left: calc(1em + 32px) !important;
+    width:28ch !important
+}
+
+//Media queries
+
+@media screen and (max-width:"600px") {
+    .search-icon{
+        display: block;
+        margin-left:25px;
+        font-size:20px;
+    }
+    .search-bar-div{
+        display: none;
+    }
+}
+

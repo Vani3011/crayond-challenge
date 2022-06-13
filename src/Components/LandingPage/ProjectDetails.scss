@@ -1,0 +1,276 @@
+.project-details-main-hdr{
+    padding: 30px 30px 0px 30px;
+
+}
+.project-details-section1{
+    display:flex;
+    justify-content: space-between;
+}
+.my-projects-title{
+    color:#181C32;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+}
+.active-text{
+    margin-left:15px;
+    font-weight: 600;
+    font-family: "system-ui";
+    color:#7E8299;
+    letter-spacing: 0.2px;
+    font-size: 1.4rem;
+}
+.project-details-btn-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newproject-btn{
+    background-color: #50CD89;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    /* font-size: 13px; */
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    height: 40px
+}
+.project-details-section2{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:30px;
+    margin-bottom:30px
+}
+.project-detail-card-section{
+    border-radius: 12px;
+    background-color: white;
+    padding: 40px 50px;
+    // width: 31%;
+    /* margin: 0px; */
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.project-details-card-header{
+    display: flex;
+    justify-content: space-between;
+    // padding:20px;
+}
+.project-detail-img-section{
+    background-color: #F5F8FA ;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.project-detail-img{
+    width:40px;
+    height:40px
+}
+.In-progress-btn{
+        background-color:#e1fbed;
+        padding:5px 20px;
+        border-radius: 6px;
+        height:35px;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        color: #50CD89;
+        font-size:13px;
+        font-weight:600 ;
+        letter-spacing: 0.5px;
+        font-family: sans-serif;
+      
+}
+.Pending-btn{
+    color: #7E8299;
+    background-color: #F5F8FA;
+    padding:5px 20px;
+    border-radius: 6px;
+    height:35px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    font-size:13px;
+    font-weight:600 ;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+
+}
+.Completed-btn{
+    color: #00B2FF;
+    background-color: #F1FAFF;
+    padding:5px 20px;
+    border-radius: 6px;
+    height:35px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size:13px;
+    font-weight:600 ;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+   
+}
+.OverDue-btn{
+    color: #F1416C;
+    background-color: #FFF5F8;
+    padding:5px 20px;
+    border-radius: 6px;
+    height:35px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size:13px;
+    font-weight:600 ;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+   
+}
+.In-Progress-btn-div{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.Project-details-title{
+    color:#181C32;
+    font-weight: 600;
+    font-family: "Poppins";
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+    margin-top:30px
+}
+.Project-details-subtitle{
+    margin-top:5px;
+    font-weight: 600;
+    font-family: "system-ui";
+    color:#7E8299;
+    letter-spacing: 0.2px;
+    font-size: 1.5rem;
+}
+.Project-details-data{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.project-details-stack{
+    border-style: dashed;
+    color: #E4E6EF;
+    min-width: 120px;
+    text-align: left;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-right:15px
+}
+
+.project-details-stack-amount{
+    font-size: 1.5rem  !important;
+    font-weight: 600;
+    color: black !important;
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.project-details-stack-title{
+    margin-left: 3px;
+    margin-top: 2px;
+    font-weight: 500;
+    font-family: "system-ui";
+    color: #7E8299;
+    letter-spacing: 0.5px;
+    font-size: 1.4rem;
+}
+.project-details-Progress-bar{
+    margin-top:30px
+}
+.symbol-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.symbol-group .symbol {
+    position: relative;
+    z-index: 0;
+    margin-left: -10px;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+}
+.symbol.symbol-circle, .symbol.symbol-circle > img, .symbol.symbol-circle .symbol-label {
+    border-radius: 50%;
+}
+.symbol {
+    display: inline-block;
+    flex-shrink: 0;
+    // position: relative;
+    // border-radius: 0.475rem;
+}
+.symbol.symbol-35px > img {
+    width: 35px;
+    height: 35px;
+}
+.symbol.symbol-35px .symbol-label {
+    width: 35px;
+    height: 35px;
+}
+.symbol.symbol-35px .symbol-label {
+    width: 35px;
+    height: 35px;
+}
+
+.symbol.symbol-circle, .symbol.symbol-circle > img, .symbol.symbol-circle .symbol-label {
+    border-radius: 50%;
+}
+.symbol .symbol-label {
+    width: 50px;
+    height: 50px;
+}
+.symbol .symbol-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #3F4254;
+    background-color: #F5F8FA;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 0.475rem;
+}
+.text-inverse-primary {
+    color: #FFFFFF !important;
+}
+.bg-primary {
+    background-color: #50CD89 !important;
+    --bg-color: 80, 205, 137 !important;
+}
+.pagination-section{
+    display:flex;
+    justify-content: space-between;
+    padding:0px 40px 40px 0px;
+    .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+        background-color: #50CD89;
+        color: white;
+        font-size: 1.1em;
+        border: none;
+    }
+    .pagination-info{
+        font-weight: 600;
+        font-family: "system-ui";
+        color:#7E8299;
+        letter-spacing: 0.2px;
+        font-size: 1.5rem;
+
+    }
+}

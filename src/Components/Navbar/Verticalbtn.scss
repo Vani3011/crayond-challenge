@@ -1,0 +1,30 @@
+.Vertical-btn{
+    .transform-90 {
+        transform: rotate(90deg);
+        transform-origin: right top;
+      }
+      
+      .fw-bolder {
+        font-weight: 600 !important;
+      }
+      .px-5 {
+        padding-right: 1.25rem !important;
+        padding-left: 1.25rem !important;
+      }
+      .gap-2 {
+        gap: 0.5rem !important;
+      }
+      .end-0 {
+        right: 0 !important;
+      }
+      .top-50 {
+        top: 50% !important;
+      }
+	.kt_engage_demos_label{
+        font-size: 1.3rem !important;
+    }
+    .fs-6{
+        font-size: 1.3rem !important;
+
+    }
+}

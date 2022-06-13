@@ -1,0 +1,98 @@
+[
+
+    {
+        "id":1,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/plurk.svg",
+       "title":"Fitness App",
+       "description":"CRM App application to HR efficiency",
+       "status":"In-Progress",
+       "dueDate":"Dec 20,2022",
+       "budget":"80,000",
+       "progress":50
+
+    },
+    
+
+    {
+        "id":2,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/disqus.svg",
+       "title":"Leaf CRM",
+       "description":"CRM App application to HR efficiency",
+       "status":"Pending",
+       "dueDate":"July 20,2022",
+       "budget":"25,000",
+       "progress":70
+    },
+    {
+        "id":3,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/figma-1.svg",
+       "title":"Atica Banking",
+       "description":"CRM App application to HR efficiency",
+       "status":"Completed",
+       "dueDate":"Aug 20,2022",
+       "budget":"25,000",
+       "progress":25
+    },
+    {
+        "id":4,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/sentry-3.svg",
+       "title":"Finance Dispatch",
+       "description":"CRM App application to HR efficiency",
+       "status":"Pending",
+       "dueDate":"July 20,2022",
+       "budget":"25,000",
+       "progress":50
+    },
+    {
+        "id":5,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/xing-icon.svg",
+       "title":"9 Degree",
+       "description":"CRM App application to HR efficiency",
+       "status":"In-Progress",
+       "dueDate":"July 20,2022",
+       "budget":"25,000",
+       "progress":40
+    },
+    {
+        "id":6,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/tvit.svg",
+       "title":"Go Pro",
+       "description":"CRM App application to HR efficiency",
+       "status":"Completed",
+       "dueDate":"Nov 20,2022",
+       "budget":"50,000",
+       "progress":90
+    },
+    {
+        "id":7,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/aven.svg",
+       "title":"Buldozer CRM",
+       "description":"CRM App application to HR efficiency",
+       "status":"Pending",
+       "dueDate":"July 20,2022",
+       "budget":"25,000",
+       "progress":70
+    },
+    {
+        "id":8,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/treva.svg",
+       "title":"Avia Sales App",
+       "description":"CRM App application to HR efficiency",
+       "status":"Overdue",
+       "dueDate":"July 20,2022",
+       "budget":"28,741",
+       "progress":70
+    },
+    {
+        "id":9,
+       "logo":"https://preview.keenthemes.com/metronic8/demo22/assets/media/svg/brand-logos/kanba.svg",
+       "title":"OPPO CRM",
+       "description":"CRM App application to HR efficiency",
+       "status":"Pending",
+       "dueDate":"July 20,2022",
+       "budget":"25,000",
+       "progress":70
+    }
+  
+   
+]
