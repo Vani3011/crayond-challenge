@@ -154,3 +154,90 @@
     }
 }
 
+.menu-profile {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 320px;
+    right: 3%;
+    // margin-top: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+
+  }
+  
+  .menu-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .menu-content a:hover {background-color: #ddd;}
+  
+  .menu-profile:hover .menu-content {display: block;}
+  
+//   .menu-profile:hover .dropbtn {background-color: #3e8e41;}
+.menu-content-data{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.menu-profile-pic{
+    width:50px;
+    height:50px;
+    margin-left:15px;
+    border-radius: 6px;
+}
+
+.menu-profile-text{
+    margin-left:30px;
+    margin-top:10px;
+    
+}
+.menu-profile-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+}
+.menu-profile-designation{
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity:0.75;
+    letter-spacing: 0.5px;
+    font-family: arial;
+}
+.menu-subprofile-text{
+    margin-left: 15px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3F4254;
+}
+a>.menu-subprofile-text:hover{
+    color:#50CD89;
+}
+.blink {
+    height: 5px;
+    width: 5px;
+    margin-left: 22px;
+    margin-bottom: -10px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    animation: blink 1s linear infinite;
+
+  }
+
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}

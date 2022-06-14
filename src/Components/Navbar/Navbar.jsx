@@ -5,7 +5,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from "@mui/material/InputBase";
 import WbSunnyIcon from '@mui/icons-material/WbSunny';
-
+import Divider from '@mui/material/Divider';
 const Search = styled('div')(({ theme }) => ({
   padding:'3px 0px',
     position: 'relative',
@@ -86,6 +86,7 @@ return (
                                         </div>
              </div>
              <div className="fileView-icon">
+             <div class="blink"></div>
                  <div className="fileView-icon-subdiv">
              <span class="svg-icon svg-icon-1">
 											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
@@ -101,6 +102,7 @@ return (
              <WbSunnyIcon className="sun-icon-mu"/>
              </div>
              </div>
+             <div className="menu-profile">
              <button className="profile-icon">
                  <div className="profile-subdiv">
                  <div className="profile-text">
@@ -112,6 +114,28 @@ return (
                  </div>
                  </div>
              </button>
+             <div class="menu-content">
+    <a href="#">
+      <div className="menu-content-data">
+<div>
+<img  className="menu-profile-pic" src="https://preview.keenthemes.com/metronic8/demo22/assets/media/avatars/300-1.jpg" />
+
+</div>
+<div className="menu-profile-text">
+                 <div className="menu-profile-name">Max</div>
+                 <div className="menu-profile-designation">Ux Designer</div>
+                 </div>
+
+      </div></a>
+      <Divider />
+    <a href="#"><div className="menu-subprofile-text">My Profile</div></a>
+    <a href="#"><div className="menu-subprofile-text">My Projects</div></a>
+    <a href="#"><div className="menu-subprofile-text">My subscriptions</div></a>
+    <a href="#"><div className="menu-subprofile-text">Logout</div></a>
+
+
+  </div>
+             </div>
              
          </div>
      </div>
