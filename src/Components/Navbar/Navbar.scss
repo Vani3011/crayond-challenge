@@ -52,7 +52,8 @@
     margin-right: 10px;
 }
 .fileView-icon-subdiv{
-    padding:10px 15px
+    padding:10px 15px;
+    margin-top: -15px;
 }
 .fileView-icon  :hover{
     // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -227,7 +228,7 @@ a>.menu-subprofile-text:hover{
     height: 5px;
     width: 5px;
     margin-left: 22px;
-    margin-bottom: -10px;
+    // margin-bottom: -10px;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
